@@ -7,10 +7,11 @@
     true  && false = false   --->   pode e não pode  ou sim e não
     false && false = false   --->   Não e Não ou Não pode e Não pode
 */
+
 console.log(true && true) // pode e pode ou sim sim
 console.log(true && false) // pode e não pode  ou sim e não
 console.log(false && false) // Não e Não ou Não pode e Não pode
-
+console.log("----------------------------------------------------------------------------------------")
 /*    
 ----------------------------------------------------------------------------------------
 ||   --->   Filho Espertinho
@@ -23,7 +24,7 @@ console.log(false && false) // Não e Não ou Não pode e Não pode
 console.log(true || true) // pode e pode ou sim sim --- Liberado
 console.log(true || false) // pode um lado Sim o outro não --- Liberado (um lado verdadeiro)
 console.log(false || false) // Não e Não ou Não pode e Não pode
-
+console.log("----------------------------------------------------------------------------------------")
 /*    
 ----------------------------------------------------------------------------------------
 !    ---> Negação Filho do Contra Rebelde (Operador de Negação)
@@ -34,7 +35,7 @@ console.log(false || false) // Não e Não ou Não pode e Não pode
     */
 console.log(!true) // Sim mais não quero = falso
 console.log(!false) // Não mais eu vou = Verdadeiro
-
+console.log("----------------------------------------------------------------------------------------")
 /*    
 ----------------------------------------------------------------------------------------
     */
